@@ -27,7 +27,12 @@ body {
 }
 
 nav {
-  background-color: #232f3e;
+  background-color: #73767a;
+  padding: 1rem 1rem;
+}
+
+footer {
+  background-color: #f3f3f3;
   padding: 1rem 1rem;
 }
 
