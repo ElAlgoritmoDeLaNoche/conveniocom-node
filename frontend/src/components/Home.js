@@ -22,18 +22,13 @@ const Home = ({ match }) => {
   const [rating, setRating] = useState(0)
 
   const categories = [
-    'Electronics',
-    'Cameras',
-    'Laptops',
-    'Accessories',
-    'Headphones',
-    'Food',
-    "Books",
-    'Clothes/Shoes',
-    'Beauty/Health',
-    'Sports',
-    'Outdoor',
-    'Home'
+    '-',
+    'Equipo de cómputo',
+    'Extensores de red',
+    'Escolares',
+    'Telefonía',
+    'Hogar',
+    'Hecho en México'
   ]
 
   const alert = useAlert();
