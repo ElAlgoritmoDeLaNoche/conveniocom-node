@@ -39,18 +39,13 @@ const productSchema = new mongoose.Schema({
     required: [true, 'Please select category for this product'],
     enum:{
       values: [
-        'Electronics',
-        'Cameras',
-        'Laptops',
-        'Accessories',
-        'Headphones',
-        'Food',
-        'Books',
-        'Clothers/Shoes',
-        'Beauty/Health',
-        'Sports',
-        'Outdoor',
-        'Home'
+        '-',
+        'Equipo de cómputo',
+        'Extensores de red',
+        'Escolares',
+        'Telefonía',
+        'Hogar',
+        'Hecho en México',
       ],
       message: 'Please select correct category for product'
     }
