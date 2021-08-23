@@ -21,6 +21,7 @@ const NewProduct = ({ history }) => {
 
   const categories = [
     '-',
+    'Accesorios',
     'Equipo de cómputo',
     'Extensores de red',
     'Escolares',

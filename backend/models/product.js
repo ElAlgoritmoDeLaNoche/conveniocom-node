@@ -40,6 +40,7 @@ const productSchema = new mongoose.Schema({
     enum:{
       values: [
         '-',
+        'Accesorios',
         'Equipo de cómputo',
         'Extensores de red',
         'Escolares',

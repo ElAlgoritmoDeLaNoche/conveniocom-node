@@ -23,6 +23,7 @@ const Home = ({ match }) => {
 
   const categories = [
     '-',
+    'Accesorios',
     'Equipo de cómputo',
     'Extensores de red',
     'Escolares',
