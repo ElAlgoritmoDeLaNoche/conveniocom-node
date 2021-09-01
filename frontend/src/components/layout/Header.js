@@ -37,6 +37,9 @@ const Header = () => {
         </div>
 
         <div className="col-12 col-md-3 mt-4 mt-md-0 text-center">
+    
+        <img src="images/tarjetas.png" alt="" width="180px" height="50" />
+
           <Link to="/cart" style={{ textDecoration: 'none' }} >
             <span id="cart" className="ml-3"><i className="fa fa-shopping-bag" style={{color: "#ffffff", fontSize: 22}}></i></span>
             <span className="ml-1" id="cart_count">{cartItems.length}</span>
@@ -69,7 +72,7 @@ const Header = () => {
 
               </div>
 
-
+                  
             </div>
 
           ) : !loading && <Link to="/login" className="btn ml-4" id="login_btn">Iniciar Sesión</Link>}
