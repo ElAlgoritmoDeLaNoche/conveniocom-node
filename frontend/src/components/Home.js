@@ -67,13 +67,10 @@ const Home = ({ match }) => {
           <div id="carouselExampleInterval" className="carousel slide mt-5" data-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active" data-interval="10000">
-                <img src="https://backend.conveniocom.com.mx/vistas/img/slide/slide12/fondo.jpg" className="d-block w-100" alt="..." />
+                <img src="https://res.cloudinary.com/de1z2wmiz/image/upload/v1630510692/slider/image2_zpf8ex.jpg" className="d-block w-100" alt="..." />
               </div>
               <div className="carousel-item" data-interval="2000">
-                <img src="https://backend.conveniocom.com.mx/vistas/img/slide/slide14/fondo.jpg" className="d-block w-100" alt="..." />
-              </div>
-              <div className="carousel-item">
-                <img src="https://backend.conveniocom.com.mx/vistas/img/slide/slide15/fondo.jpg" className="d-block w-100" alt="..." />
+                <img src="https://res.cloudinary.com/de1z2wmiz/image/upload/v1630510692/slider/image1_rfk9qh.jpg" className="d-block w-100" alt="..." />
               </div>
             </div>
             <a className="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
