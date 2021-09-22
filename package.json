@@ -5,10 +5,10 @@
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
-    "dev": "NODE_ENV=DEVELOPMENT nodemon backend/server",
-    "prod": "NODE_ENV=PRODUCTION nodemon backend/server",
+    "dev": "SET NODE_ENV=DEVELOPMENT& nodemon backend/server",
+    "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/server",
     "seeder": "node backend/utils/seeder.js",
-    "heroku-postbuild" : "NPM_CONFIG_PRODUCTION=false && npm install -f --prefix frontend && npm run build --prefix frontend"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install -f --prefix frontend && npm run build --prefix frontend"
   },
   "author": "El Algoritmo de la Noche",
   "license": "ISC",
